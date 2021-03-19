@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: 'to_ogleregular';
+    src: url(../fuente1/toogle-webfont.woff) format('woff2'),
+         url('toogle-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url(../kaushan-script/KaushanScript-Regular.otf) format('woff2'),
+         url('kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#header-title {
+    background: #DDDDDD;
+    border: 1px solid #999999;
+    display: block;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    -moz-border-radius: 20px 10px 30px 50px;
+    border-radius: 20px 10px 30px 50px;
+    -moz-box-shadow: rgb(150,150,150) 5px 5px;
+    box-shadow: rgb(150,150,150) 10px 8px 10px inset;
+    background: -moz-radial-gradient(top, circle, #FFFFFF, #006699);
+    }
+#span-title {
+    font: bold 36px verdana, sans-serif;
+    text-shadow: rgba(0,0,0,0.5) 3px 3px 5px;
+    }
+
+    /*
+    px: pixel. Es la unidad mínima de resolución de la pantalla. En realidad suele considerársela una unidad absoluta, relativa o híbrida dependiendo del criterio que se analice. 
+
+    em: unidad relativa al tamaño de texto definido en un determinado contexto. El em es una unidad que proviene del diseño tipográfico y equivale al espacio que ocupa el ancho de una letra M ("m" mayúscula) de un determinado cuerpo y alfabeto. El em hace referencia al tamaño de letra que se está usando. */
+
+    #menu{
+        font-family: 'Syne Mono', monospace;
+        
+        
+        font-size: 2em
+        
+    }
+    #g1{
+        font-family:'to_ogleregular';
+    }
+    #g2{
+        font-family:'kaushan_scriptregular';
+    }
+    /*
+    Lugares para descargar fuentes:
+    *Google fonts
+    *Urban fonts
+    *Font Squirrel
+    */
